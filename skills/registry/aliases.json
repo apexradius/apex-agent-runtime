@@ -1,0 +1,5 @@
+{
+  "repo-quality-gate": "example:repo-quality-hub",
+  "pre-merge-check": "example:repo-quality-hub",
+  "public-release-check": "example:repo-quality-hub"
+}

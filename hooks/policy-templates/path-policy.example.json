@@ -1,0 +1,7 @@
+{
+  "protectedPaths": [
+    "/example/prod-secrets/",
+    "/example/customer-data/",
+    "/example/runtime-state/"
+  ]
+}

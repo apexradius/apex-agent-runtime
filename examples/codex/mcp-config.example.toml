@@ -1,0 +1,4 @@
+[mcp_servers.example]
+command = "node"
+args = ["packages/example-mcp-server/dist/index.js"]
+env = {}

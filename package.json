@@ -1,0 +1,31 @@
+{
+  "name": "apex-agent-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public reference stack for MCP servers, agent skills, and local safety hooks.",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "format": "biome check --write .",
+    "lint": "biome check .",
+    "test": "pnpm -r test && node scripts/validate-registry.mjs",
+    "validate": "pnpm lint && pnpm build && pnpm test",
+    "scan:secrets": "gitleaks detect --no-git --redact --source ."
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agents",
+    "skills",
+    "hooks",
+    "codex",
+    "claude"
+  ],
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@11.0.3",
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.15",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

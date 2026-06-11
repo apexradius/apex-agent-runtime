@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "id": "example:repo-quality-hub",
+      "name": "repo-quality-hub",
+      "path": "../examples/repo-quality-hub/SKILL.md",
+      "description": "Routes repository cleanup, pre-merge quality gates, and public-release checks.",
+      "aliases": [
+        "repo-quality-gate",
+        "pre-merge-check",
+        "public-release-check"
+      ]
+    }
+  ]
+}
